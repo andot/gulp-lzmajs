@@ -1,0 +1,26 @@
+{
+  "name": "gulp-lzmajs",
+  "description": "Minify files with LZMA-JS.",
+  "version": "1.0.0",
+  "author": "Ma Bingyao <mabingyao@gmail.com>",
+  "bugs": "https://github.com/andot/gulp-lzmajs/issues",
+  "dependencies": {
+    "gulp-util": ">=3.0.0 <4.0.0-0",
+    "lzma": "2.1.7"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "homepage": "https://github.com/andot/gulp-lzmajs/",
+  "keywords": [
+    "gulpplugin",
+    "compress",
+    "gulp",
+    "lzma",
+    "LZMA-JS",
+    "lzmajs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/andot/gulp-lzmajs.git"
+}
