@@ -23,7 +23,7 @@ gulp.task('compress', function() {
   return gulp.src('lib/*.js')
              .pipe(concat('all.min.js'))
              .pipe(uglify())
-             .pipe(lzmajs())
+             .pipe(lzmajs(9))
              .pipe(gulp.dest('dist'));
 });
 ```
